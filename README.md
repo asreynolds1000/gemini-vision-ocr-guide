@@ -1,6 +1,6 @@
 # Gemini Vision OCR Guide
 
-Patterns for using Gemini's vision capabilities: OCR/transcription, image analysis, photo cataloging, document extraction. Gemini is currently the strongest model for image understanding tasks — use it over Claude for vision-heavy work.
+Patterns for using [Google Gemini's](https://ai.google.dev/gemini-api/docs) vision capabilities: OCR/transcription, image analysis, photo cataloging, document extraction. Gemini is currently the strongest model for image understanding tasks.
 
 ---
 
