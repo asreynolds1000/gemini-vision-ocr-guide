@@ -24,11 +24,13 @@ Patterns for using [Google Gemini's](https://ai.google.dev/gemini-api/docs) visi
 | Model | Best For | Daily Limit | Cost |
 |-------|---------|-------------|------|
 | Gemini 3.1 Pro Preview | Handwriting, difficult OCR, accuracy-critical | 250/day | Higher |
+| Gemini 3.5 Flash | General vision work, mid-tier accuracy | None | Mid |
 | Gemini 2.5 Pro | Fallback for timeouts, general documents | None | Medium |
 | Gemini 2.5 Flash | Photo analysis, cataloging, quick lookups | None | Cheapest |
 
-- **3.1 Pro:** 10-15% more complete output than 2.5 Pro on handwriting. Use for production OCR.
-- **Flash:** Failed on 3/4 handwriting test pages, but excellent for photo description/cataloging where precision matters less than coverage.
+- **3.1 Pro:** 10-15% more complete output than 2.5 Pro on handwriting. Use for production handwriting OCR. Naming note: the API ID is `gemini-3.1-pro-preview` (still in preview).
+- **3.5 Flash:** The stable 3.x tier. Slots between 2.5 Pro and 3.1 Pro for general vision work — but for handwriting OCR specifically, 3.1 Pro remains the top pick.
+- **Flash (2.5):** Failed on 3/4 handwriting test pages, but excellent for photo description/cataloging where precision matters less than coverage.
 - **2.5 Pro:** Good all-rounder. Use as fallback when 3.1 Pro times out.
 
 ## API Parameters
